@@ -125,7 +125,7 @@ a.btn {
   width: 60px;
   padding-top: 5px;
   @media (min-width: $viewport-width-sm) {
-    top: 275px;
+    top: 350px;
     font-size: 16px;
     height: 32px;
     width: 100px;
@@ -140,7 +140,7 @@ a.btn {
   }
 
   @media (min-width: $viewport-width-lg) {
-    //top: 600px;
+    top: 700px;
     //font-size: 35px;
     //height: 70px;
   }

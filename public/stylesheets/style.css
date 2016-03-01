@@ -162,7 +162,7 @@ a.btn {
   padding-top: 5px; }
   @media (min-width: 375px) {
     a.btn {
-      top: 275px;
+      top: 350px;
       font-size: 16px;
       height: 32px;
       width: 100px; } }
@@ -173,6 +173,9 @@ a.btn {
       height: 55px;
       width: 140px;
       padding-top: 10px; } }
+  @media (min-width: 1200px) {
+    a.btn {
+      top: 700px; } }
 
 footer {
   position: fixed;
