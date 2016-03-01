@@ -13,13 +13,19 @@ body, html{
   height: 100%;
   background-color: #fff;
   text-transform: lowercase;
+  min-height: $viewport-width-xs;
+  overflow-y: auto;
 }
 
 #content{
   width: 100%;
   text-align: center;
-  min-height: $viewport-width-xs;
-  overflow-y: auto;
+  position: absolute;
+  top: -90px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 
 h1{

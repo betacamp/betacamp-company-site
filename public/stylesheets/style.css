@@ -57,13 +57,19 @@ body, html {
   color: #222;
   height: 100%;
   background-color: #fff;
-  text-transform: lowercase; }
+  text-transform: lowercase;
+  min-height: 320px;
+  overflow-y: auto; }
 
 #content {
   width: 100%;
   text-align: center;
-  min-height: 320px;
-  overflow-y: auto; }
+  position: absolute;
+  top: -90px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto; }
 
 h1 {
   font-size: 40px;
